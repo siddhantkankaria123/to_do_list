@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const _ = require("lodash");
 mongoose
   .connect(
-    "mongodb+srv://siddhantkankaria:6kREd5Fzhp4aAcG1@cluster0.1btt8ah.mongodb.net/todolistdb",
+    "mongodb+srv://siddhantkankaria:sid1034@cluster0.1btt8ah.mongodb.net/todolistdb",
     { useNewUrlParser: true }
   )
   .then(console.log("mongodb connected with server"));
